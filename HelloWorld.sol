@@ -5,10 +5,12 @@ contract HelloWorld {
     //initializing to 0
     uint256 num;
 
+    //adding a store function
     function store(uint _num) public{
         num = _num;
     }
 
+    //adding a retrive function
     function retrieve() public view returns(uint){
         return num;
     }
